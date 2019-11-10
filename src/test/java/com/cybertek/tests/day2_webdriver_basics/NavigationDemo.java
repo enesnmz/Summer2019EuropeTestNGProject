@@ -9,6 +9,8 @@ public class NavigationDemo {
     public static void main(String[] args) throws InterruptedException {
         //seting up the driver
         WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup;
+        //WebDriver.driver=new ChromeDriver();
 
 
         //Import class alt+enter

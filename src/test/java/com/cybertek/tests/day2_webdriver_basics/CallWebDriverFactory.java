@@ -1,12 +1,15 @@
 package com.cybertek.tests.day2_webdriver_basics;
 
 import com.cybertek.utilities.WebDriverFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 
-public class CallWebDriverFactory {
+public class CallWebDriverFactory{
+
     public static void main(String[] args) {
 
-        WebDriverManager driver= new WebDriverFactory.getDriver("chrome");
+        WebDriver driver=WebDriverFactory.getDriver("chrome");
+
+        driver.get("https://google.com");
 
     }
 }
