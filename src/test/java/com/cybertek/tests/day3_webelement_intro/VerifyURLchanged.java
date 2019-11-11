@@ -24,7 +24,7 @@ public class VerifyURLchanged {
 
         driver.get("http://practice.cybertekschool.com/forgot_password");
 
-        WebElement emailInput =driver.findElement(By.name("email"));
+        WebElement emailInput =driver.findElement(By.name("email"));//'name' is an unique attribute
 
         String name=faker.hobbit().character();
         String Name=name.toLowerCase();
